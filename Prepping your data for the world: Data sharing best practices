@@ -1,0 +1,6 @@
+#Data sharing best practices
+
+1. Only include data in a data file; do not include figures or analyses.
+2. Consider aggregating data into fewer, larger files, rather than many small ones. It is more difficult and time consuming to manage many small files and easier to maintain consistency across data sets with fewer, larger files. It is also more convenient for other users to select a subset from a larger data file than it is to combine and process several smaller files. Very large files, however, may exceed the capacity of some software packages. Some examples of ways to aggregate files include by data type, site, time period, measurement platform, investigator, method, or instrument.
+3. It is sometimes desirable to aggregate or compress individual files to a single file using a compression utility, although the advisability of this practice varies depending on the intended destination repository.
+4. Individual repositories may have specific requirements regarding file formats. If a repository has no file format requirements, we recommend tab- or comma-delimited text (*.txt or *.csv) for tabular data. This maximizes the potential for use across different software packages, as well as prospects for long-term preservation.
