@@ -1,4 +1,4 @@
-#Data sharing best practices
+# Data sharing best practices
 
 1. Only include data in a data file; do not include figures or analyses.
 2. Consider aggregating data into fewer, larger files, rather than many small ones. It is more difficult and time consuming to manage many small files and easier to maintain consistency across data sets with fewer, larger files. It is also more convenient for other users to select a subset from a larger data file than it is to combine and process several smaller files. Very large files, however, may exceed the capacity of some software packages. Some examples of ways to aggregate files include by data type, site, time period, measurement platform, investigator, method, or instrument.
